@@ -1,12 +1,9 @@
-# Vim の個人設定
-Vim の個人設定の覚書
-
 # .vimrc
 - .vimrc は Vim の設定ファイル
 - ホームディレクトリに `.vimrc` を作成すると自動で作成した設定が参照される
 - 初期設定は、[何も考えず~/.vimrcにこれを書くんだ！ 〜vim初心者によるvim初心者のためのvim入門〜](https://qiita.com/morikooooo/items/9fd41bcd8d1ce9170301)を参照
 
-# vim-plug
+## vim-plug
 - vim-plug は vim のプラグインを管理するためのもの
 - ダウンロードは[vim-plug導入](https://qiita.com/kouichi_c/items/e19ccf94b8e5ab6ed18e)に従う
 
@@ -24,7 +21,7 @@ call plug#end()
 ```
 - vim で `:PlugInstall` を実行しインストールする
 
-# vimdic-ja
+## vimdic-ja
 vim のヘルプページ `:help` を日本語化する
 
 ```:.vimrc
