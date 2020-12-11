@@ -73,10 +73,10 @@ nnoremap <C-u> :Fern . -drawer -reveal=%<CR>
 nnoremap <C-i> :Fern . -drawer -toggle<CR>
 
 " スニペット
-" ()の自動補完
-inoremap {<Enter> {}<Left><CR><ESC><S-o>
-inoremap [<Enter> []<Left><CR><ESC><S-o>
-inoremap (<Enter> ()<Left><CR><ESC><S-o>
+" ()の自動補完(lexivによって必要ない)
+"inoremap {<Enter> {}<Left><CR><ESC><S-o>
+"inoremap [<Enter> []<Left><CR><ESC><S-o>
+"inoremap (<Enter> ()<Left><CR><ESC><S-o>
 " 変数の補完
 set completeopt=menuone,noinsert
 inoremap <expr><CR>  pumvisible() ? "<C-y>" : "<CR>"
