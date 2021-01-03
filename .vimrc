@@ -91,6 +91,7 @@ Plug 'cocopon/iceberg.vim'
 Plug 'mattn/vim-lexiv'
 " プロジェクトのディレクトリをツリー表示するプラグイン
 Plug 'lambdalisue/fern.vim'
+Plug 'lambdalisue/fern-git-status.vim'
 " Language Server Client
 Plug 'prabirshrestha/vim-lsp'
 " LspInstallServerコマンドでLSの設定を自動で行うプラグイン
@@ -98,5 +99,6 @@ Plug 'mattn/vim-lsp-settings'
 " git
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
-
+" Fuzzy Finder
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
