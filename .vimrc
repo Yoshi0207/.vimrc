@@ -37,6 +37,7 @@ nnoremap k gk
 " シンタックスハイライトの有効化
 syntax enable
 " シンタックスハイライトにicebergを使用
+set background=dark
 colorscheme iceberg
 
 " Tab系
