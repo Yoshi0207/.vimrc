@@ -31,8 +31,8 @@ Plug 'vim-jp/vimdoc-ja'
 ## iceberg
 - vim-plug でダウンロードする
 - `Plug 'cocopon/iceberg.vim'`でダウンロード
-- ホームディレクトリの`.vim`ディレクトリ内に`color`ディレクトリが無い場合作成
-- `.vim`内の`plugged`ディレクトリ内の`iceberg.vim`ディレクトリ内の`color`ディレクトリにある`iceberg.vim`ファイルを`.vim`直下の`color`ディレクトリにコピー
+- ホームディレクトリの`.vim`ディレクトリ内に`colors`ディレクトリが無い場合作成
+- `.vim`内の`plugged`ディレクトリ内の`iceberg.vim`ディレクトリ内の`colors`ディレクトリにある`iceberg.vim`ファイルを`.vim`直下の`color`ディレクトリにコピー
 - `.vimrc`に次を記述
 
 ```:.vimrc
