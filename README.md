@@ -59,7 +59,7 @@ Plug 'lambdalisue/fern.vim'
 - `:Fern -drawer %:h` で現在表示している親のディレクトリツリーを表示
 - `:Fern . -drawer -toggle` でディレクトリツリーを閉じる
 
-# 参考
+## 参考
 - https://qiita.com/morikooooo/items/9fd41bcd8d1ce9170301
 - https://qiita.com/kouichi_c/items/e19ccf94b8e5ab6ed18e
 - https://vimawesome.com/plugin/iceberg
